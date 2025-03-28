@@ -106,7 +106,7 @@ def get_user_points(image_path):
     return start, end
 
 # Main execution
-image_path = "image.png"
+image_path = "images/image.png"
 edges = preprocess_image(image_path)
 G = extract_graph(edges)
 
